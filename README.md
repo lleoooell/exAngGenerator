@@ -10,3 +10,7 @@ Run `grunt` for building and `grunt serve` for preview.
 ## Testing
 
 Running `grunt test` will run the unit tests with karma.
+
+
+## Lancement
+ne pas oublier de lancer le serveur node de l'exemple précédent (sur le port 3000) pour que la resource puisse acceder à la liste des élèves
