@@ -1,0 +1,11 @@
+<p>This is the qcm view.</p>
+{{qcm.qActive}}
+<hr>
+<h2>{{qcm.qActive.titre}}</h2>
+<ul>
+	<li ng-repeat='(key,val) in qcm.qActive.choix'>{{key}} : {{val}}</li>
+</ul>
+
+
+<button class="btn" ng-click="qcm.prevQuestion()">prev</button>
+<button class="btn" ng-click="qcm.nexQuestion()">next</button>

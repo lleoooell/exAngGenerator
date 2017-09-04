@@ -1,0 +1,10 @@
+
+<p>This is the eleves view.</p>
+<ul class="list-group">
+		<li class="list-group-item" ng-repeat="n in eleves.test " id="item{{n._id}}" >
+			<a class="pull-left" ng-href="#!/eleve/{{n._id}}">{{n.nom }}&nbsp;{{n.prenom}}</a>
+			<!-- <a class="btn btn-xs btn-danger pull-right" ng-click="deleteEleve(n, $index)">supprimer</a> -->
+			<!-- <a class="btn btn-xs btn-danger pull-right" ng-href="#!/eleve/update/{{n._id}}">modifier</a> -->
+			<div class="clearfix"></div>
+		</li>
+	</ul>
